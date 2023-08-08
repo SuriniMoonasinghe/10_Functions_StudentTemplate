@@ -1,5 +1,5 @@
-// refactor this code into a function and other methods you may wish to use from javascript
-// maybe think how you could add to this dataset too.
+// 1. refactor the console.logs with a function and other methods you may wish to use from javascript to achieve the same.  This code should stick out as needing refectoring because of what principle?
+// 2. maybe think how you could add to this dataset too, i.e. take an input from a user.
 
 const listOfRunners = []
 
