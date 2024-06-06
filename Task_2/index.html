@@ -7,7 +7,21 @@
   </head>
   <body> 
     <script>
+      //using parameters or arguments
+      function function2(fname,lname){
+        console.log(`Hello ${fname} ${lname}, welcome to javascript parameters`);
+      }
 
+      function2('Surini','Moonasinghe');
+
+      /*if you were to only provide one argument, it would output the other argument
+      as undefined. So you can set defaults to make sure something outputs */
+      
+      function function2(fname="Surini",lname="Moonasinghe"){
+        console.log(`Hello ${fname} ${lname}, welcome to javascript parameters`);
+      }
+
+      function2('Surini','Moonasinghe');
     </script>
   </body>
 </html>
